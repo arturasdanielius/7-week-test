@@ -106,7 +106,18 @@ console.log('----------8---------');
 /*8. Parašyti funkciją - lygineSuma. Funkcijos parametrai - du kintamieji. Testų reikalavimai - abu kitamieji turi būti arba skaičiai arba masyvai(negali būti vienas skaičius, kitas masyvas).
 Jei kintamieji skaičiai, grąžinti skaičių sumą, jei kintamieji masyvai - grąžinti masyvų ilgių sumą. Jei abu kintamieji skaičiai arba masyvai, bet suma nelyginė - grąžinti tekstą, kad suma nelyginė. (10 taškų)*/
 
+let x = 5;
+let y = 7;
 
+function lygineSuma(x, y) {
+    if (x === Number && y === Number) {
+        return x + y;
+    } else if((x + y) % 2 === 0); {
+    return 'suma nelyginė';
+    }
+}
+
+console.log(lygineSuma(x, y));
 
 
 
